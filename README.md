@@ -1,2 +1,0 @@
-# EasyBreezy
-shopping website
