@@ -4,16 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Welcome from './Welcome/index.tsx';
-import Homepage from './HomePage/HomePage.tsx';
+import Login from './Login/index.tsx'; 
+import RegisterAgent from './Register/registerAgent.tsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Homepage/>
-
-
-    
+  
+    <Welcome/>
+    <Login/>
+    <RegisterAgent/>
+   
   </React.StrictMode>
 );
 
