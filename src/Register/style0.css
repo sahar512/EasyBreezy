@@ -3,21 +3,24 @@
 }
 body{
     background-color: #FCEEE4 ;
+   
 
 }
 .Register{
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    text-decoration:none;
+    /*padding: 5;*/
+   /* margin: 3;*/
+    font-size: 4rem;
+    text-decoration:dashed;
     display: flex;
     justify-content: center;
-    font-weight:  bolder;
+    font-weight:630;
+    color: #000000;
+    
 } 
 .details{
     top: 90px;
     position: absolute;
-    width: 210px;
+    width: 230px;
     font-size: 1.5rem;
     left: 30px;
     font-style: italic;
@@ -60,7 +63,7 @@ body{
     transform: translate(109%);
     align-items: center;
     position: absolute;
-    top: 550px;
+    top: 600px;
     left: -100px;
     font-size: 18px;
     
@@ -69,18 +72,17 @@ body{
 }
 
 .RegisterA{
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    text-decoration:none;
+    font-size: 4rem;
+    text-decoration:dashed;
     display: flex;
     justify-content: center;
-    font-weight:  bolder;
+    font-weight:630;
+    color: #000000;
 } 
 .detailsA{
     top: 90px;
     position: absolute;
-    width: 210px;
+    width: 230px;
     font-size: 1.5rem;
     left: 30px;
     font-style: italic;
@@ -120,19 +122,18 @@ body{
     transform: translate(109%);
     align-items: center;
     position: absolute;
-    top: 550px;
+    top: 600px;
     left: -100px;
     font-size: 18px;
 }
 .AgentDetails{
-    top: 90px;
+    top: 0.1px;
     position: absolute;
-    width: 210px;
+    width: 230px;
     font-size: 1.5rem;
-    left: 30px;
     font-style: italic;
     font-weight: lighter;
-    left: 780px;
+    left: 440px;
 
 }
 .inputAgent{
