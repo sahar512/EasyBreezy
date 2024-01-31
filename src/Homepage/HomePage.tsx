@@ -17,11 +17,7 @@ const HomePage: React.FC = () => {
       <img src={shoes} alt="shoes" className = "shoes" />
       <img src={T_SHIRT} alt="shoes" className = "T-SHIRT" />
 
-      {/* Category Images
-      <div className="category-images-container">
-        <img src={shoes} alt="shoes" />
-        <img src={T_SHIRT} alt="T-SHIRT" />
-      </div> */}
+   
 
       {/* Icons */}
       <div className="icon-container">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style0.css'; 
-//customer
-const RegisterPage: React.FC = () => {
+//agent
+const RegisterAgent: React.FC = () => {
   return (
     <html lang="en">
       <head>
@@ -11,16 +11,16 @@ const RegisterPage: React.FC = () => {
       </head>
       <body>
         <header>
-          <a href="/" className="Register">
-            <div className="Register">Register</div>
+          <a href="/" className="RegisterA">
+            <div className="RegisterA">Register</div>
           </a>
-          <a id="register" className="details">
+          <a id="register" className="detailsA">
             <label htmlFor="first name">
               <b>First name *</b>
             </label>
             <input
               type="text"
-              className="input-field"
+              className="input-field-A"
               placeholder="Enter First name"
               name="first name"
               id="name"
@@ -31,7 +31,7 @@ const RegisterPage: React.FC = () => {
             </label>
             <input
               type="text"
-              className="input-field"
+              className="input-field-A"
               placeholder="Enter Last name"
               name="last name"
               id="last name"
@@ -42,7 +42,7 @@ const RegisterPage: React.FC = () => {
             </label>
             <input
               type="date"
-              className="input-field"
+              className="input-field-A"
               placeholder="Enter Date of birth"
               name="birthday"
               id="birthday"
@@ -53,7 +53,7 @@ const RegisterPage: React.FC = () => {
             </label>
             <input
               type="email"
-              className="input-field"
+              className="input-field-A"
               placeholder="Enter Email"
               name="Email"
               id="Email"
@@ -64,7 +64,7 @@ const RegisterPage: React.FC = () => {
             </label>
             <input
               type="password"
-              className="input-field"
+              className="input-field-A"
               placeholder="Enter Password"
               name="psw"
               id="psw"
@@ -75,15 +75,39 @@ const RegisterPage: React.FC = () => {
             </label>
             <input
               type="password"
-              className="input-field"
+              className="input-field-A"
               placeholder="Repeat Password"
               name="psw-repeat"
               id="psw-repeat"
               required
             />
-            <button type="submit" className="submit-btn">
+            <button type="submit" className="submit-btn-A">
               Register
             </button>
+            <a id="registerAgent" className="AgentDetails">
+              <label htmlFor="Shope name">
+                <b>Shop name *</b>
+              </label>
+              <input
+                type="text"
+                className="inputAgent"
+                placeholder="Enter your shop name"
+                name="shop name"
+                id="shop name"
+                required
+              />
+              <label htmlFor="Description">
+                <b>Description *</b>
+              </label>
+              <input
+                type="text"
+                className="inputAgent"
+                placeholder="Enter your shop description"
+                name="Description"
+                id="Description"
+                required
+              />
+            </a>
           </a>
         </header>
       </body>
@@ -91,4 +115,4 @@ const RegisterPage: React.FC = () => {
   );
 };
 
-export default RegisterPage;
+export default RegisterAgent;
