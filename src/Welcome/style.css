@@ -1,41 +1,21 @@
-
-
-.page-container {
-  background-color: #FCEEE4;
-  height: 100vh; /* 100% of the viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.welcome-container {
-  position: relative;
-}
-
-.easy-text,
-.breezy-text {
-  position: absolute;
-  text-align: center;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.easy-text {
-  width: 112px;
-  height: 31px;
-  font-family: 'BioRhyme Expanded';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 50px;
-}
-
-.breezy-text {
-  width: 152px;
-  height: 31px;
-  font-family: 'Abhaya Libre ExtraBold';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 47px;
-}
+body {
+    background-color: #FCEEE4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
