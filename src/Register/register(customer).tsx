@@ -1,6 +1,6 @@
 import React from 'react';
 import './style0.css'; 
-
+//customer
 const RegisterPage: React.FC = () => {
   return (
     <html lang="en">
