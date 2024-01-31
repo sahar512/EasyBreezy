@@ -12,10 +12,10 @@ const Welcome: React.FC = () => {
       <h1>Welcome to Your App</h1>
       
       <Stack direction="column" spacing={2}>
-        <Link to="/login/index.tsx">
+        <Link to="/login/customer" style={{ textDecoration: 'none' }}>
           <Button variant="contained" style={{ backgroundColor: 'black', color: 'white' }}>Customer</Button>
         </Link>
-        <Link to="/login/index.tsx">
+        <Link to="/login/agent" style={{ textDecoration: 'none' }}>
           <Button variant="contained" style={{ backgroundColor: 'black', color: 'white' }}>Agent</Button>
         </Link>
       </Stack>
