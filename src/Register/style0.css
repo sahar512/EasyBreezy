@@ -1,10 +1,9 @@
 *, *::before, *::after{
     box-sizing: border-box;
 }
+
 body{
     background-color: #FCEEE4 ;
-   
-
 }
 .Register{
     /*padding: 5;*/
