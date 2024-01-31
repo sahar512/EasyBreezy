@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import './style.css';
 
-const Login: React.FC = () => {
+const LoginCustomer: React.FC = () => {
   return (
     <div className="container">
       <h2><em>Yay, welcome back to our website!</em></h2><br/><br/>
@@ -24,7 +25,6 @@ const Login: React.FC = () => {
           <label htmlFor="remember">Remember me</label>
         </div>
         
-        
         <a href="#">Forget password?<br/><br/></a>
 
         <button type="submit" className="form-button">Login</button><br/><br/>
@@ -32,10 +32,13 @@ const Login: React.FC = () => {
 
       <p>
         <h2>New User</h2>
-        <button type="submit" className="form-button">Register</button><br/><br/>
+        <Link to='/RegisterCustomer'> 
+          <button className="form-button">Register</button>
+        </Link>
+        <br/><br/>
       </p>
     </div>
   );
 };
 
-export default Login;
+export default LoginCustomer;
