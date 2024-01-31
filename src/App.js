@@ -3,7 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
-import Login from './Login';
+import LoginCustomer from './Login/LoginCustomer';
+import LoginAgent from "./Login/LoginAgent";
+import RegisterAgent from './Register/registerAgent';
+import RegisterCustomer from './Register/RegisterCustomer';
+import HomePage from './Homepage/HomePage';
+
 
 function App() {
   return (
@@ -12,8 +17,11 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Welcome />} />
-        <Route path="/login/customer" element={<Login />} />
-        <Route path="/login/agent" element={<Login />} />
+        <Route path="/LoginCustomer" element={<LoginCustomer />} />
+        <Route path="/LoginAgent" element={<LoginAgent />} />
+        <Route path="/RegisterAgent" element={<RegisterAgent />} />
+        <Route path="/RegisterCustomer" element={<RegisterCustomer />} />
+        <Route path="/HomePage" element={<HomePage/>} />
       </Routes>
     </Router>
   );

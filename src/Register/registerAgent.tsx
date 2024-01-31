@@ -12,7 +12,6 @@ const RegisterAgent: React.FC = () => {
       <body>
         <header>
           <a href="/" className="RegisterA">
-            <div className="RegisterA">Register</div>
           </a>
           <a id="register" className="detailsA">
             <label htmlFor="first name">

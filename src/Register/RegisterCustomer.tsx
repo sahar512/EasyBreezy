@@ -12,7 +12,6 @@ const RegisterCustomer: React.FC = () => {
       <body>
         <header>
           <a href="/" className="Register">
-            <div className="Register">Register</div>
           </a>
           <a id="register" className="details">
             <label htmlFor="first name">
